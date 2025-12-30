@@ -1,9 +1,9 @@
 # gocode
 
-Easy way to setup a local server to share code examples with colleagues on a project
+gocode - simple code share
+
+Easy way to setup a local server to share code examples
 
 ```
 bash run.sh
 ```
-
-![Alt text](screenshot.jpg?raw=true "Screenshot")
