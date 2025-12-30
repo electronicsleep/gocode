@@ -1,7 +1,5 @@
 FROM alpine:latest
 
-MAINTAINER Chris Robertson https://github.com/electronicsleep
-
 RUN mkdir -p /usr/src/app
 
 RUN apk update && apk upgrade 

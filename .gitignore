@@ -1,4 +1,6 @@
 # Binaries for programs and plugins
+gocode
+public/code
 *.exe
 *.exe~
 *.dll

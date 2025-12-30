@@ -10,7 +10,7 @@ import (
 
 func TestRootEndpointsCheckHandler(t *testing.T) {
 	endpoint_array := [...]string{"/", "/about", "/history"}
-	check_array := [...]string{"GoCode", "About", "History"}
+	check_array := [...]string{"gocode", "about", "history"}
 	check_handlers := [...]http.HandlerFunc{templateHandler, templateHandlerAbout, templateHandlerHistory}
 	count := 0
 	expected := ""
